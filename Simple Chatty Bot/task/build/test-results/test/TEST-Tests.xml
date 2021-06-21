@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-21T01:33:28" hostname="JERYLDEV" time="0.106">
+  <properties/>
+  <testcase name="start" classname="Tests" time="0.106"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+Hello! My name is Jeryl.
+I was created in 2021.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
