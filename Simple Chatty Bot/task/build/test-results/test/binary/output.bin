@@ -1,4 +1,12 @@
 [1;31m
 Start test 1[0m
-Hello! My name is Jeryl.
-I was created in 2021.
+Hello! My name is Aid.
+I was created in 2018.
+Please, remind me your name.
+	> > John
+[1;31m
+Start test 2[0m
+Hello! My name is Aid.
+I was created in 2018.
+Please, remind me your name.
+	> > Nick
