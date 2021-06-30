@@ -8,20 +8,15 @@ class Main {
     public static void main(String[] args) {
         // put your code here
         Scanner scanner = new Scanner(System.in);
-        ArrayList<String> names = new ArrayList<String>();
+        ArrayList<String> names = new ArrayList<>();
 
-        names.add(scanner.next());
-        names.add(scanner.next());
-        names.add(scanner.next());
-        names.add(scanner.next());
-        names.add(scanner.next());
-        names.add(scanner.next());
-        names.add(scanner.next());
-        names.add(scanner.next());
+        for (int i = 0; i < 8; i++) {
+            names.add(scanner.next());
+        }
 
         Collections.reverse(names);
-        for (String i: names) {
-            System.out.println(i);
+        for (String name: names) {
+            System.out.println(name);
         }
     }
 }
